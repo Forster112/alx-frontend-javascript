@@ -1,0 +1,25 @@
+{
+  "name": "alx-frontend-javascript",
+  "version": "1.0.0",
+  "description": "my package file",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node 0x00-ES6_basic/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forster112/alx-frontend-javascript.git"
+  },
+  "author": "Forster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Forster112/alx-frontend-javascript/issues"
+  },
+  "homepage": "https://github.com/Forster112/alx-frontend-javascript#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
