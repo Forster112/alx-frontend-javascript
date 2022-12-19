@@ -1,8 +1,7 @@
 /* eslint-disable require-jsdoc */
 export default function appendToEachArrayValue(array, appendString) {
-  for (const idx of array.keys()) {
-    const value = array[idx];
-    array[idx] = `${appendString}${value}`;
+  for (const value of array) {
+    array[array.indexOf(value)] = `${appendString}${value}`;
   }
 
   return array;
