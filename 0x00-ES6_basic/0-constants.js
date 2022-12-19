@@ -1,6 +1,5 @@
 /* eslint-disable require-jsdoc */
 export function taskFirst() {
-  // my comment
   const task = 'I prefer const when I can.';
   return task;
 }
