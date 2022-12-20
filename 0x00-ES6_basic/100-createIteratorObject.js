@@ -4,7 +4,7 @@ export default function createIteratorObject (report) {
     for (const emp of report.allEmployees[val]) {
       items.push(emp);
     }
-  }
+  };
 
   return items;
 }
